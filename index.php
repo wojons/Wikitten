@@ -22,6 +22,10 @@ if(!defined('ENABLE_EDITING')) {
     define('ENABLE_EDITING', false);
 }
 
+if(!defined('ENABLE_CREATING')) {
+    define('ENABLE_CREATING', false);
+}
+
 define('PLUGINS', __DIR__ . DIRECTORY_SEPARATOR . 'plugins');
 
 $request_uri = parse_url($_SERVER['REQUEST_URI']);
